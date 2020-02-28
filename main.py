@@ -13,12 +13,10 @@ client = discord.Client()
 @client.event
 async def on_ready():
     print(f'{client.user.name} has connected to Discord!')
-    # client.get_guild(525304043082612737).voice_channels[0]
-    # vc = client.get_channel(525304043082612745)
 
 @client.event
 async def on_message(message):
-    vc = client.get_channel(525304043082612745)
+    # vc = client.get_channel(525304043082612745)
     if message.author == client.user:
         return
 
@@ -33,6 +31,9 @@ async def on_message(message):
     if (message.content == '!FOFO'):
         await message.channel.send('''```我也是醉了他媽的🙄🙄剛剛團練 媽的 輔野差距👊👊👊然後 說 我中路康特💪🏼💪🏼然後對面一直靠😡😡然後 我沒辦法把他打爆😤😤然後他媽打完 然後 我說 然後 因為這些視野 他們靠的問題😒😒然後打野就說 我感覺你也沒辦法把他打爆😞 幹你娘機掰🖕 真的很不爽 無言💤```''')
 
+
+    if (message.content == '!90在幹嘛'):
+        await message.channel.send('''在睡覺 :ResidentSleeper:''')
     # if message.content == '!召喚阿亮':
     #     # print('召喚阿亮', vc)
     #     # vc = client.get_channel(525304043082612745)
