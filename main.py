@@ -13,6 +13,12 @@ client = discord.Client()
 @client.event
 async def on_ready():
     print(f'{client.user.name} has connected to Discord!')
+    
+    # see all emojis
+    # for guild in client.guilds:
+    #     print(guild.emojis)
+
+
 
 @client.event
 async def on_message(message):
@@ -33,7 +39,7 @@ async def on_message(message):
 
 
     if (message.content == '!90在幹嘛'):
-        await message.channel.send('''在睡覺 :ResidentSleeper:''')
+        await message.channel.send('''在睡覺 <:ResidentSleeper:569834842536280075>''')
     # if message.content == '!召喚阿亮':
     #     # print('召喚阿亮', vc)
     #     # vc = client.get_channel(525304043082612745)
