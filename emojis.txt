@@ -48,3 +48,7 @@
 <Emoji id=663405001472737310 name='HanFan5' animated=False managed=False>
 <Emoji id=666894208514392064 name='nlnlOUO' animated=False managed=False>
 <Emoji id=674629315924852752 name='HanFan1' animated=False managed=False>
+<:a0a17:686544937147170838>
+<:overloadKon:819226031352184863>
+<:overloadGan:819226031101444146>
+<:relaxingCry:832972506335019008>
